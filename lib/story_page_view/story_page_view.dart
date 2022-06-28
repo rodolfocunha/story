@@ -335,18 +335,6 @@ class _StoryPageFrameState extends State<_StoryPageFrame>
             context.watch<StoryStackController>().value,
           ),
         ),
-        Container(
-          height: 50,
-          decoration: BoxDecoration(
-            boxShadow: [
-              BoxShadow(
-                color: Colors.black.withOpacity(0.1),
-                spreadRadius: 10,
-                blurRadius: 20,
-              ),
-            ],
-          ),
-        ),
         Indicators(
           storyLength: widget.storyLength,
           animationController: animationController,
